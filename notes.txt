@@ -1,0 +1,13 @@
+TODO:
+    inotify to monitor directory/file while in use by app.
+
+Transmission protocol:
+    <tlv header>
+        <tlv file name>...</tlv>
+        <tlv file size>...</tlv>
+    </tlv>
+    <tlv file content>...</tlv>
+    ...
+    <tlv file content>...</tlv>
+    <tlv sha512>...</tlv>
+    <tlv ack/nack />
